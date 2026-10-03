@@ -1,0 +1,16 @@
+# Dataset and evaluation artefacts are not part of this code release.
+data/
+results/
+*.jsonl
+*.csv
+*.pdf
+*.zip
+*.tex
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+scratch/
