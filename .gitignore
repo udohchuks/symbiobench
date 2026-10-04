@@ -1,8 +1,5 @@
-# Dataset and evaluation artefacts are not part of this code release.
-data/
+# Local evaluation outputs and credentials are excluded.
 results/
-*.jsonl
-*.csv
 *.pdf
 *.zip
 *.tex

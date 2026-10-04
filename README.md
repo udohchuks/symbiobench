@@ -1,4 +1,4 @@
-# SynBioBench code
+# SynBioBench
 
 Reusable code for evaluating language models on quantitative synthetic-biology
 tasks: response rendering and grading, symbolic equation comparison,
@@ -7,18 +7,17 @@ and descriptive item analysis.
 
 ## Availability
 
-This is a **code-only release**. The benchmark dataset cannot be publicly
-released. Benchmark questions, answer keys, saved model responses, network
-instances, and scripts containing embedded question banks are excluded.
-The metabolic solver module contains the reusable functions only; its
-item-specific reference cases are withheld. Small artificial records in the
-grading tests exercise the software interface and are not a benchmark release.
+The benchmark questions, reference answers, grading rules, and main-evaluation
+manifest are available in [data](data/README.md). The primary collection contains
+405 questions; the main evaluation uses 279, and the supplementary circuit
+comparison uses 14 questions in two matched presentations.
 
-The code can be used with separately supplied items, but it cannot independently
-reproduce the manuscript's reported scores without the withheld dataset and
-responses. The original dataset-dependent runner is omitted because its bundled
-input paths are unavailable in this release. No claim of full experimental
-reproducibility is made.
+The release permits question inspection and new model evaluations. Saved model
+responses are not included, so exact reproduction of the reported scores still
+requires the archived responses. The dataset notes identify missing external
+context and unresolved source attribution in the earlier flux question bank.
+Item-specific metabolic oracle cases and dataset-generation scripts remain
+outside the reusable solver release; reference answers are included in the data.
 
 ## Installation
 

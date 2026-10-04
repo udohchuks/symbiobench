@@ -1,0 +1,22 @@
+{
+  "gene_circuit_full.jsonl": {
+    "items": 346,
+    "sha256": "82148f4aae14f0e9af894de0d1ef9618b3a2d100ce481f44e5cf0348c8597ccf"
+  },
+  "gene_circuit_main.jsonl": {
+    "items": 250,
+    "sha256": "a9cdafc86b317f5ebcf0fb964ee22d0a1c80577fcf3cce197e6ffb557209a94d"
+  },
+  "mfa_full.jsonl": {
+    "items": 59,
+    "sha256": "4205ca275dc08533f0faa54e7fa61b49396cbb23b04bfdd1e7ff970cdddabbc5"
+  },
+  "circuit_hard_biological.jsonl": {
+    "items": 14,
+    "sha256": "5a9dbdfdd6951e24390a3828eeca92a74be0b9fd1f3c4ded988b8972656a139f"
+  },
+  "circuit_hard_equations.jsonl": {
+    "items": 14,
+    "sha256": "5f5ee499b903784f79055004ca77f35e99666972d73e3d1dd28ff56cee2244a3"
+  }
+}
